@@ -1,0 +1,23 @@
+# Trading Symbols Configuration
+assets:
+  stocks:
+    - symbol: AAPL
+      name: Apple Inc.
+      enabled: true
+      max_position_size: 100
+
+    - symbol: GOOGL
+      name: Alphabet Inc.
+      enabled: false
+      max_position_size: 50
+
+    - symbol: MSFT
+      name: Microsoft Corporation
+      enabled: false
+      max_position_size: 75
+
+  crypto:
+    - symbol: BTCUSD
+      name: Bitcoin
+      enabled: false
+      max_position_size: 0.1
